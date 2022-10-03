@@ -13,7 +13,9 @@ class Solution {
         int resultRunner = m + n - 1;
 
         // !  Consider each element `nums1[i]` of array `nums1` and ignore the element if it is already in the correct order; otherwise, swap it with the next smaller element, which happens to be the first element of `nums2`.
+
         while (runner1 >= 0 && runner2 >= 0) {
+        // ! compare the current element of `nums1[]` with the first element of `nums2[]`
             if (nums1[runner1] > nums2[runner2]) {
                 nums1[resultRunner] = nums1[runner1];
                 runner1--;
