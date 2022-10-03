@@ -1,0 +1,15 @@
+Approaches : 
+1. Brute force approach 
+2. Insertion sort 
+3. Min-heap approach 
+4. Gap method
+
+Time and Space Complexities : 
+TODO: Need to work on complexities segment.
+
+
+Variables : 
+We use a highly complex technique to attain the most optimal solution called as gap method.
+
+Concepts : 
+Array, Two pointer, Priority Queue, Insertion Sort
